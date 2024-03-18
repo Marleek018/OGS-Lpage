@@ -14,14 +14,15 @@
   </head>
   <body>
     <header
-      class="bg-bla text-gre flex justify-between px-[80px] pt-[32px] pb-[16px] "
+      class="bg-bla text-gre flex justify-between px-[80px] pt-[32px] pb-[16px] xs:px-[16px] sm:px-[80px]"
     >
-      <img src="../images/Layer 1.png" alt="ODS LOGO" />
+      <img class="xs:hidden lg:block" src="../images/Layer 1.png" alt="ODS LOGO" />
+      <img class="lg:hidden " src="../images/Layer 2.png" alt="ODS LOGO">
       <nav>
         <ul>
           <a href="#">
             <li
-              class="border py-[18px] px-[32px] rounded-lg border-gre font-Sora font-bold text-[18px]"
+              class="border py-[18px] px-[32px] rounded-lg border-gre font-Sora font-bold text-[18px] xs:text-[13px] sm:text-[18px] xs:py-[12px] sm:py-[18px] xs:px-[24px] sm:px-[32px]"
             >
               Contact Us
             </li>
@@ -29,12 +30,12 @@
         </ul>
       </nav>
     </header>
-    <section class="bg-[url('/bg.png')] bg-bla text-center font-Sora py-[167px]">
-      <h4 class="font-semibold text-[56px] text-white">
+    <section class="bg-[url('/bg.png')] bg-Tblack text-center font-Sora py-[167px] xs:pt-[63px] sm:pt-[92px] lg:pt-[167px]">
+      <h4 class="font-semibold text-[56px] text-white xs:text-[32px] sm:text-[38px] lg:text-[56px]">
         Innovating Software<br> Solutions for
         <span class="text-gre"> Sustainable <br>Development Goals</span>
       </h4>
-      <p class="font-normal text-[24px] text-white">
+      <p class="font-normal text-[24px] text-white xs:text-[18px] sm:text-[24px]">
         Are you confident about your problem solving skills and stand a<br> chance
         to win a price? Enter your email to register
       </p>
@@ -45,12 +46,12 @@
     <section class="bg-deepblack flex justify-evenly py-[28px]">
         <img src="../images/ogun.png" alt="OGUN STATE LOGO">
         <img src="../images/techeconomy.png" alt="TECHECONOMY LOGO">
-        <img src="../images/ogun daily.png" alt="OGUN DAILY LOGO">
+        <!-- <img src="../images/ogun daily.png" alt="OGUN DAILY LOGO">
         <img src="../images/grazac.png" alt="GRAZAC LOGO">
-        <img src="../images/afex.png" alt="AFEX LOGO">
+        <img src="../images/afex.png" alt="AFEX LOGO"> -->
     </section>
     <!-- section below is now finished -->
-      <section class="font-Sora bg-gre flex justify-around py-[50px] ">
+      <section class="font-Sora bg-Tblack bg-[url('/ogunsummit.png')] flex justify-around py-[50px] xs:block lg:flex">
         <div>
             <h4 class="text-white font-bold text-[36px] text-center">Challenge</h4>
             <img class="mx-auto" src="../images/saturn-01.png" alt="SATURN LOGO">
@@ -67,8 +68,9 @@
             <p class="text-white font-normal text-[18px] text-center">We Award The Best Creative Team With Cash<br>Prizes And Valuable Eqiupment</p>
         </div>
     </section>
-    <section class="font-Sora bg-Tblack text-white flex gap-[60px] py-[64px] px-[80px]">
-      <img class="w-[10%] border-r-[8px] border-b-[8px] border-gre" src="../images/African american man working on computer created with generative ai technology.png" alt="IMAGE">
+    <section class="font-Sora bg-Tblack bg-gradient-to-r from-Tblack  to-bla text-white flex gap-[60px] py-[64px] px-[80px] xs:block lg:flex">
+      <img class="mx-auto lg:hidden" src="../images/mobile1.png" alt="IMG">
+      <img class=" border-r-[8px] border-b-[8px] border-gre lg:block xs:hidden  " src="../images/African american man working on computer created with generative ai technology.png" alt="IMAGE">
       <div class="pt-[86px]">
         <h4 class="font-bold text-[30px]">The Genesis</h4>
         <br>
@@ -77,7 +79,7 @@
         <p class="font-normal text-[20px]">All you backend, frontend, aI developer, UI/UX <br> designers, come out in droves and be part of The <br> Amazing teams to develop project solutions Across <br> various industries</p>
       </div>
     </section>
-    <section class="font-Sora bg-Tblack text-white flex gap-[60px] py-[64px] px-[80px]">
+    <section class="font-Sora bg-Tblack bg-gradient-to-l from-Tblack to-bla text-white flex gap-[60px] py-[64px] px-[80px] xs:block lg:flex">
       <div class="pt-[86px]">
       <h4 class="font-bold text-[30px]">The Models</h4>
       <br>
@@ -85,10 +87,12 @@
       <br>
       <p class="font-normal text-[20px]">At codesphere hackathon, you will be converting your <br> creative models into software and providing <br> solutions to problems in the education, healthcare, <br> agriculture,,  fintech, hospitality, real estate, media  <br> industries amongst a host of others</p>
     </div>
-    <img class="border-r-[8px] border-b-[8px] border-gre" src="../images/Group of afro americans working together.png" alt="IMAGE">
+    <img class="lg:hidden mx-auto" src="../images/mobile2.png" alt="IMG">
+    <img class=" border-r-[8px] border-b-[8px] border-gre lg:block xs:hidden" src="../images/Group of afro americans working together.png" alt="IMAGE">
     </section>
-    <section class="font-Sora bg-Tblack text-white flex gap-[60px] py-[64px] px-[80px]">
-      <img class="border-r-[8px] border-b-[8px] border-gre" src="../images/African american it engineer programming binary code interface, using css html script and encryption on computer. male freelancer coding security server with software developer application..png" alt="IMAGE">
+    <section class="font-Sora bg-Tblack bg-gradient-to-r from-Tblack  to-bla text-white flex gap-[60px] py-[64px] px-[80px] xs:block lg:flex">
+      <img class="mx-auto lg:hidden" src="../images/mobile3.png" alt="IMG">
+      <img class=" border-r-[8px] border-b-[8px] border-gre lg:block xs:hidden" src="../images/African american it engineer programming binary code interface, using css html script and encryption on computer. male freelancer coding security server with software developer application..png" alt="IMAGE">
       <div class="pt-[86px]">
         <h4 class="font-bold text-[30px]">The Roadmap</h4>
         <br>
@@ -97,17 +101,17 @@
         <p class="font-normal text-[20px]">On the demo-day, each team is expected to have a project/product to demo to the audience then the judges decide the winner based on the criteria.</p>
       </div>
     </section>
-    <section class="font-Sora py-[84px] text-white bg-gre">
+    <section class="font-Sora py-[84px] text-white bg-Tblack bg-[url('/ogunsummit.png')]">
       <h4 class="text-center font-bold text-[29px] pb-[40px]">Timeline</h4>
       <img class="m-auto pb-[20px]" src="../images/Group 4.png" alt="IMAGE">
-      <div class=" font-normal text-[19px] text-center flex justify-evenly">
+      <div class=" font-normal text-[19px] text-center flex justify-evenly xs:block lg:flex">
         <h5>Hackathon Start Date</h5>
         <h5>Demo Date</h5>
         <h5>Hackathon  Date</h5>
         <h5>Hackathon  Date</h5>
       </div>
       <div class="flex justify-evenly font-normal text-[14px] pb-[30px]">
-        <p>August 23rd, 2024</p>
+        <p>August 23rd, 2024</p> 
         <p>1st - 9th  October, 2024</p>
         <p>23rd  October, 2024</p>
         <p>23rd  October, 2024</p>
@@ -117,7 +121,7 @@
         <h5 >Duration : 3 months</h5>
       </div>
     </section>
-    <section class="font-Sora flex justify-around py-[64px] bg-Tblack text-white">
+    <section class="font-Sora flex justify-around py-[64px] bg-Tblack bg-gradient-to-l from-Tblack to-bla text-white xs:block lg:flex">
       <div>
       <p class="text-[20px] font-normal pt-[115.88px]">You want to have an opportunity to pitch your ideas/ <br>
          solution to potential investors and get a chance to <br> turn them into real product</p>
@@ -126,9 +130,10 @@
         <br>
         <button class="border-[1px] border-gre bg-gre p-[16px] font-bold text-[14.78px] rounded-[3.28px]">Register now</button>
       </div>
-      <img class="border-r-[8px] border-b-[8px] border-gre" src="../images/Rectangle 2.png" alt="IMAGE">
+      <img class="mx-auto lg:hidden" src="../images/mobile4.png" alt="IMG">
+      <img class="border-r-[8px] border-b-[8px] border-gre lg:block xs:hidden" src="../images/Rectangle 2.png" alt="IMAGE">
     </section>
-    <footer class="bg-yellow-600 py-[64px]">
+    <footer class="bg-Ablack py-[64px] bg-[url('/images/pattern2.png')]">
       <div class="flex gap-[48px] pb-[32px] justify-center">
       <img src="../images/Vector facebook.png" alt="LOGO">
       <img src="../images/Vector instagram.png" alt="LOGO">
