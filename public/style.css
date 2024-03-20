@@ -711,6 +711,14 @@ video {
   background-image: url('.images/ogunsummit.png');
 }
 
+.bg-\[url\(\'\.\/images\/\/pattern2\.png\'\)\] {
+  background-image: url('./images//pattern2.png');
+}
+
+.bg-\[url\(\'\.\/images\/pattern2\.png\'\)\] {
+  background-image: url('./images/pattern2.png');
+}
+
 .from-Tblack {
   --tw-gradient-from: #222624 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(34 38 36 / 0) var(--tw-gradient-to-position);
