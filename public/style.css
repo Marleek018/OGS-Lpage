@@ -671,6 +671,14 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\/bg\.png\'\)\] {
+  background-image: url('/bg.png');
+}
+
+.bg-\[url\(\'\/ogunsummit\.png\'\)\] {
+  background-image: url('/ogunsummit.png');
+}
+
 .from-Tblack {
   --tw-gradient-from: #222624 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(34 38 36 / 0) var(--tw-gradient-to-position);
