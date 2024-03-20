@@ -651,8 +651,8 @@ video {
   background-color: rgb(3 190 94 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/bg\.png\'\)\] {
-  background-image: url('/bg.png');
+.bg-\[url\(\'\.\/images\/bg\.png\'\)\] {
+  background-image: url('./images/bg.png');
 }
 
 .bg-\[url\(\'\/images\/ogunsummit\.png\'\)\] {
@@ -673,6 +673,42 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\/imag\.\/images\/bg\.png\'\)\] {
+  background-image: url('./imag./images/bg.png');
+}
+
+.bg-\[url\(\'\.\/imag\/images\/ogunsummit\.png\'\)\] {
+  background-image: url('./imag/images/ogunsummit.png');
+}
+
+.bg-\[url\(\'\.\/imag\/images\/pattern2\.png\'\)\] {
+  background-image: url('./imag/images/pattern2.png');
+}
+
+.bg-\[url\(\'\.\/imag\/ogunsummit\.png\'\)\] {
+  background-image: url('./imag/ogunsummit.png');
+}
+
+.bg-\[url\(\'\.\/images\.\/images\/bg\.png\'\)\] {
+  background-image: url('./images./images/bg.png');
+}
+
+.bg-\[url\(\'\.\/images\/images\/ogunsummit\.png\'\)\] {
+  background-image: url('./images/images/ogunsummit.png');
+}
+
+.bg-\[url\(\'\.\/images\/images\/pattern2\.png\'\)\] {
+  background-image: url('./images/images/pattern2.png');
+}
+
+.bg-\[url\(\'\.\/images\/ogunsummit\.png\'\)\] {
+  background-image: url('./images/ogunsummit.png');
+}
+
+.bg-\[url\(\'\.images\/ogunsummit\.png\'\)\] {
+  background-image: url('.images/ogunsummit.png');
 }
 
 .from-Tblack {
