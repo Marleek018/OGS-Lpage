@@ -651,16 +651,16 @@ video {
   background-color: rgb(3 190 94 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/bg\.png\'\)\] {
-  background-image: url('/bg.png');
+.bg-\[url\(\'\/images\/bg\.png\'\)\] {
+  background-image: url('/images/bg.png');
+}
+
+.bg-\[url\(\'\/images\/ogunsummit\.png\'\)\] {
+  background-image: url('/images/ogunsummit.png');
 }
 
 .bg-\[url\(\'\/images\/pattern2\.png\'\)\] {
   background-image: url('/images/pattern2.png');
-}
-
-.bg-\[url\(\'\/ogunsummit\.png\'\)\] {
-  background-image: url('/ogunsummit.png');
 }
 
 .bg-gradient-to-l {
@@ -866,6 +866,10 @@ video {
     justify-content: center;
   }
 
+  .xs\:justify-between {
+    justify-content: space-between;
+  }
+
   .xs\:gap-\[24px\] {
     gap: 24px;
   }
@@ -956,6 +960,26 @@ video {
   .xs\:text-\[32px\] {
     font-size: 32px;
   }
+
+  .xs\:text-\[24px\] {
+    font-size: 24px;
+  }
+
+  .xs\:text-\[26px\] {
+    font-size: 26px;
+  }
+
+  .xs\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .xs\:leading-\[\] {
+    line-height: ;
+  }
+
+  .xs\:leading-\[27px\] {
+    line-height: 27px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1020,6 +1044,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .md\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
