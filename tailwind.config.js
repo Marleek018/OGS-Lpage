@@ -6,6 +6,7 @@ module.exports = {
       'xs':'320px',
       'sm': '640px',
       'md': '768px',
+      'xmd':'800px',
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',

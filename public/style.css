@@ -561,6 +561,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -655,16 +659,12 @@ video {
   background-image: url('./images/bg.png');
 }
 
-.bg-\[url\(\'\/images\/ogunsummit\.png\'\)\] {
-  background-image: url('/images/ogunsummit.png');
+.bg-\[url\(\'\.\/images\/ogunsummit\.png\'\)\] {
+  background-image: url('./images/ogunsummit.png');
 }
 
-.bg-\[url\(\'\/images\/pattern2\.png\'\)\] {
-  background-image: url('/images/pattern2.png');
-}
-
-.bg-\[url\(\'\/ogunsummit\.png\'\)\] {
-  background-image: url('/ogunsummit.png');
+.bg-\[url\(\'\.\/images\/pattern2\.png\'\)\] {
+  background-image: url('./images/pattern2.png');
 }
 
 .bg-gradient-to-l {
@@ -673,50 +673,6 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\.\/imag\.\/images\/bg\.png\'\)\] {
-  background-image: url('./imag./images/bg.png');
-}
-
-.bg-\[url\(\'\.\/imag\/images\/ogunsummit\.png\'\)\] {
-  background-image: url('./imag/images/ogunsummit.png');
-}
-
-.bg-\[url\(\'\.\/imag\/images\/pattern2\.png\'\)\] {
-  background-image: url('./imag/images/pattern2.png');
-}
-
-.bg-\[url\(\'\.\/imag\/ogunsummit\.png\'\)\] {
-  background-image: url('./imag/ogunsummit.png');
-}
-
-.bg-\[url\(\'\.\/images\.\/images\/bg\.png\'\)\] {
-  background-image: url('./images./images/bg.png');
-}
-
-.bg-\[url\(\'\.\/images\/images\/ogunsummit\.png\'\)\] {
-  background-image: url('./images/images/ogunsummit.png');
-}
-
-.bg-\[url\(\'\.\/images\/images\/pattern2\.png\'\)\] {
-  background-image: url('./images/images/pattern2.png');
-}
-
-.bg-\[url\(\'\.\/images\/ogunsummit\.png\'\)\] {
-  background-image: url('./images/ogunsummit.png');
-}
-
-.bg-\[url\(\'\.images\/ogunsummit\.png\'\)\] {
-  background-image: url('.images/ogunsummit.png');
-}
-
-.bg-\[url\(\'\.\/images\/\/pattern2\.png\'\)\] {
-  background-image: url('./images//pattern2.png');
-}
-
-.bg-\[url\(\'\.\/images\/pattern2\.png\'\)\] {
-  background-image: url('./images/pattern2.png');
 }
 
 .from-Tblack {
@@ -783,6 +739,10 @@ video {
   padding-bottom: 84px;
 }
 
+.pb-\[12px\] {
+  padding-bottom: 12px;
+}
+
 .pb-\[16px\] {
   padding-bottom: 16px;
 }
@@ -813,6 +773,14 @@ video {
 
 .pt-\[86px\] {
   padding-top: 86px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .text-center {
@@ -1110,6 +1078,118 @@ video {
   .md\:text-\[18px\] {
     font-size: 18px;
   }
+
+  .md\:text-\[17px\] {
+    font-size: 17px;
+  }
+
+  .md\:text-\[1\] {
+    color: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .xmd\:block {
+    display: block;
+  }
+
+  .xmd\:flex {
+    display: flex;
+  }
+
+  .xmd\:hidden {
+    display: none;
+  }
+
+  .xmd\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xmd\:justify-around {
+    justify-content: space-around;
+  }
+
+  .xmd\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .xmd\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .xmd\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .xmd\:px-\[50\] {
+    padding-left: 50;
+    padding-right: 50;
+  }
+
+  .xmd\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .xmd\:py-\[56px\] {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .xmd\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .xmd\:px-\[52px\] {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  .xmd\:py-\[52px\] {
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+
+  .xmd\:px-\[6\] {
+    padding-left: 6;
+    padding-right: 6;
+  }
+
+  .xmd\:py-\[\] {
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .xmd\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .xmd\:pb-\[47px\] {
+    padding-bottom: 47px;
+  }
+
+  .xmd\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .xmd\:pt-\[60px\] {
+    padding-top: 60px;
+  }
+
+  .xmd\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .xmd\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
+  .xmd\:\*\:pb-0 > * {
+    padding-bottom: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1123,6 +1203,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .lg\:px-\[80px\] {
