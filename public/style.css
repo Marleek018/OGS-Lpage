@@ -685,6 +685,10 @@ video {
   --tw-gradient-to: #161918 var(--tw-gradient-to-position);
 }
 
+.to-Tblack {
+  --tw-gradient-to: #222624 var(--tw-gradient-to-position);
+}
+
 .p-\[16px\] {
   padding: 16px;
 }
@@ -892,6 +896,24 @@ video {
 
   .xs\:overflow-x-auto {
     overflow-x: auto;
+  }
+
+  .xs\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .xs\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xs\:from-Tblack {
+    --tw-gradient-from: #222624 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(34 38 36 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .xs\:to-bla {
+    --tw-gradient-to: #161918 var(--tw-gradient-to-position);
   }
 
   .xs\:px-\[16px\] {
@@ -1111,6 +1133,24 @@ video {
 
   .xmd\:justify-evenly {
     justify-content: space-evenly;
+  }
+
+  .xmd\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xmd\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .xmd\:from-Tblack {
+    --tw-gradient-from: #222624 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(34 38 36 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .xmd\:to-bla {
+    --tw-gradient-to: #161918 var(--tw-gradient-to-position);
   }
 
   .xmd\:py-\[50px\] {
